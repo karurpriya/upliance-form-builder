@@ -1,6 +1,6 @@
 // src/redux/formSlice.ts
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { FormsState, FormConfig, Field } from '../types';
+import { createSlice, type PayloadAction } from '@reduxjs/toolkit';
+import type { FormsState, FormConfig, Field } from '../types';
 
 const initialState: FormsState = {
   currentForm: {
